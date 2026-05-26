@@ -2,19 +2,12 @@
 #include <input/processors.dtsi>
 #include <dt-bindings/zmk/input_transform.h>
 
-/ {
-    trackball_listener: trackball_listener {
-        compatible = "zmk,input-listener";
-        status = "disabled";
-        device = <&pointing_device>;
-    };
-};
     
 &pointing_listener {
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
 };
 
-&trackball_listener {
+&pointing_listener {
     status = "okay";
     input-processors = <&zip_temp_layer 1 400>;
 
