@@ -76,24 +76,24 @@
             layers = <2>;
         };
 
-        CONBO_ESC {
+        COMBO_ESC {
             bindings = <&kp JP_ZKHK>;
-            key-positions = <1 2>;
+            key-positions = <13 14>;
         };
 
-        CONBO_JPAT {
+        COMBO_JPAT {
             bindings = <&kp JP_AT>;
-            key-positions = <9 10>;
+            key-positions = <21 22>;
         };
 
         COMBO_TAB {
             bindings = <&kp TAB>;
-            key-positions = <13 14>;
+            key-positions = <25 26>;
         };
 
         COMBO_JP_PIPE {
             bindings = <&kp ESCAPE>;
-            key-positions = <21 22>;
+            key-positions = <33 34>;
         };
 
     };
