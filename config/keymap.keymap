@@ -128,7 +128,7 @@
             bindings = <
 &trans  &trans        &trans        &trans        &trans        &trans                                 &trans       &trans         &trans       &trans        &trans      &trans
 &trans  &kp F1        &kp F2        &mkp RCLK     &mkp LCLK     &mkp MCLK                              &kp JP_SQT   &kp JP_LPAR    &kp JP_RPAR  &kp JP_TILDE  &kp ESCAPE  &trans
-&trans  &kp F6        &kp F7        &mkp MB4      &mkp MB5      &kp JP_PIPE   &trans           &trans  &kp JP_DLLR  &kp JP_PRCNT   &kp JP_AMPS  &kp JP_LBKT   &kp TAB     &trans
+&trans  &kp F6        &kp F7        &mkp MB4      &mkp MB5      &kp JP_UNDER  &trans           &trans  &kp JP_DLLR  &kp JP_PRCNT   &kp JP_AMPS  &kp JP_LBKT   &kp TAB     &trans
 &trans  &kp JP_PRCNT  &kp JP_ASTRK  &kp JP_MINUS  &kp JP_PLUS   &kp JP_EQUAL  &kp PRINTSCREEN  &trans  &kp JP_EXCL  &kp JP_DQT     &kp JP_HASH  &kp JP_RBKT   &kp PIPE    &trans
 &trans  &trans        &trans        &trans        &kp DELETE    &kp TAB       &trans           &trans  &trans       &trans         &trans       &trans        &trans      &trans
             >;
