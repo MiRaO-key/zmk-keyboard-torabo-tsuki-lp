@@ -3,6 +3,7 @@
 #include <dt-bindings/zmk/input_transform.h>
 #include <dt-bindings/zmk/modifiers.h>
 
+
 / {
     scroll_inertia_v: scroll_inertia_v {
         compatible = "zmk,input-processor-scroll-inertia";
@@ -13,7 +14,7 @@
         scale-div = <675>;
         stop = <7>;          /* サイト推奨の終了閾値 */
     };
-}
+};
 
 &pointing_listener {
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;

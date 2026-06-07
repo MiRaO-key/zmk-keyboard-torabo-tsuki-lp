@@ -13,7 +13,7 @@
         scale-div = <675>;
         stop = <7>;          /* サイト推奨の終了閾値 */
     };
-}
+};
 
 &pointing_listener {
     input-processors = <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
