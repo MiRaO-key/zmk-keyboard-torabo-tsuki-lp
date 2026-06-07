@@ -9,7 +9,7 @@
         #input-processor-cells = <0>;
         axis = <0>;          /* 2Dスクロール */
         layer = <2>;         /* scroll レイヤーと一致 */
-        scale = <4>;         /* zip_scroll_scaler と同じ */
+        scale = <64>;        /* zip_scroll_scaler と同じ（増速） */
         scale-div = <675>;
         stop = <7>;          /* サイト推奨の終了閾値 */
     };
@@ -24,7 +24,7 @@
             &zip_y_scaler (-1) 1
             &zip_xy_to_scroll_mapper
             &scroll_inertia_v
-            &zip_scroll_scaler 4 675
+            &zip_scroll_scaler 64 675
         >;
     };
 };
